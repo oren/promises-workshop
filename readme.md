@@ -1,5 +1,7 @@
 # Promises Workshop
 
+Docker container for running the [promises workshop](https://github.com/stevekane/promise-it-wont-hurt).
+
 ![pic](workshop.png)
 
 ## Run
