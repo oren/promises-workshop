@@ -4,7 +4,7 @@
 
 ## Run
 
-    Docker run -it oreng/promises-workshop
+    docker run -it oreng/promises-workshop
 
 ## Setup on your laptop
 
