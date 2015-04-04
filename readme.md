@@ -2,6 +2,8 @@
 
 Docker container for running the [promises workshop](https://github.com/stevekane/promise-it-wont-hurt).
 
+![docker-badge](http://dockeri.co/image/oreng/promises-workshop)
+
 ![pic](workshop.png)
 
 ## Run
@@ -10,11 +12,14 @@ Docker container for running the [promises workshop](https://github.com/stevekan
 
 ## Setup on your laptop
 
-    git clone git@github.com:oren/promises-workshop.git
-    cd promises-workshop
+### prerequisites
 
 Install docker and docker-compose
 
+## Run
+
+    git clone git@github.com:oren/promises-workshop.git
+    cd promises-workshop
     docker-compose build
     docker-compose run workshop
 
