@@ -12,7 +12,7 @@ Docker container for running the [promises workshop](https://github.com/stevekan
     docker run -it -v $(pwd):/root oreng/promises-workshop run foo.js      # run your solution
     docker run -it -v $(pwd):/root oreng/promises-workshop verify foo.js   # verify your solution
 
-The workshop stores your progress in .config. so `sudo rm .config` will reset the workshop.
+The workshop stores your progress in .config so `sudo rm -r .config` will reset the workshop.
 
 ## Setup on your laptop
 
