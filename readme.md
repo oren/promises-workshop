@@ -25,10 +25,9 @@ Docker container for running the [promises workshop](https://github.com/stevekan
 
 ### Run the workshop
 
-    docker-compose run workshop
-    docker-compose run workshop run <file.js>
-    docker-compose run workshop verify <file.js>
-
+    docker-compose run workshop                          # show menu
+    docker-compose run workshop run <file.js>            # run your solution
+    docker-compose run workshop verify <file.js>         # verify your solution
 
 ### Push to Dokcerhub
 
