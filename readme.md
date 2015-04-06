@@ -12,18 +12,25 @@ Docker container for running the [promises workshop](https://github.com/stevekan
 
 ## Setup on your laptop
 
-### prerequisites
+### Prerequisites
 
-Install docker and docker-compose
+* [Docker](https://docs.docker.com/installation)
+* [Compose](https://docs.docker.com/compose/install)
 
-## Run
+### Build Image
 
     git clone git@github.com:oren/promises-workshop.git
     cd promises-workshop
     docker-compose build
-    docker-compose run workshop
 
-## Push to Dokcerhub
+### Run the workshop
+
+    docker-compose run workshop
+    docker-compose run workshop run <file.js>
+    docker-compose run workshop verify <file.js>
+
+
+### Push to Dokcerhub
 
     docker login
     docker tag promisesworkshop_workshop oreng/promises-workshop:1.0.0

@@ -8,5 +8,7 @@ ENV init.author.name=whatever
 # RUN npm init -yf
 RUN npm install q
 RUN npm install -g promise-it-wont-hurt@latest
+WORKDIR /root
+ENV PATH /root:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 ENTRYPOINT ["promise-it-wont-hurt"]

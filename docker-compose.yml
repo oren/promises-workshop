@@ -1,8 +1,4 @@
 workshop:
   build: .
   volumes:
-    - .:/promise-shop
-  ports:
-   - "3000:3000"
-  expose:
-   - "3000"
+    - .:/root
