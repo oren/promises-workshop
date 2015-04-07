@@ -16,7 +16,6 @@ function all (a, b) {
     , error   = []
   return new Promise(function (fulfill, reject) {
     a.then(function (val) {
-      console.log('here');
       counter ++
       data.push(val)
       if (counter === 2) {
@@ -24,7 +23,6 @@ function all (a, b) {
       }
     })
     b.then(function (val) {
-      console.log('there');
       counter ++
       data.push(val)
       if (counter === 2) {
