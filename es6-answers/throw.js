@@ -13,4 +13,4 @@ function parsePromised(obj) {
   })
 }
 
-parsePromised(process.argv[2]).then(undefined).catch(console.log)
+parsePromised(process.argv[2]).catch(console.log)
