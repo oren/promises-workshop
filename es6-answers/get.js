@@ -18,3 +18,8 @@ function get(url) {
 }
 
 module.exports = get;
+
+// reject(e)
+// you always want the error object, for the stack trace and whatnot
+// also, `var data` needs to go inside the "get" function
+// otherwise calling it twice will have the first call's data in it too.
